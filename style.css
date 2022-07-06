@@ -90,4 +90,50 @@ body{
         margin-left: 42.5%;
         text-align: center;
     }
+    .donate-plan{
+        text-align: center;
+        margin-top: 50px;
+    }
+    .half-width{
+        width: 100%;
+        display: flex;
+        margin-bottom: 200px;
+        
+    }
+    
+    .food-family{
+     margin: 15px 20px;
+     border: 2px solid rgba(190, 222, 249, 1)  ;
+     background-color:rgba(190, 222, 249, 1) ;
+     padding: 40px 30px;
+     border-radius: 10PX;
+ }  
+ .food-family img{
+    margin-top: 10px;
+    margin-bottom:10px ;
+ }
+ .shelter-family{
+    margin: 15px 20px;
+    border: 2px solid rgba(249, 190, 216, 1) ;
+    background-color:rgba(249, 190, 216, 1) ;
+    padding:   40px 30px;
+    border-radius: 10PX;
+}  
+.shelter-family img{
+   margin-top: 10px;
+   margin-bottom:10px ;
+}
+.education-child{
+    margin: 15px 20px;
+    border: 2px solid rgba(249, 216, 190, 1) ;
+    background-color: rgba(249, 216, 190, 1) ;
+    padding:  40px 30px;
+    border-radius: 10PX;
+}  
+.education-child img{
+   margin-top: 10px;
+   margin-bottom:10px ;
+}
+  
+    
 
