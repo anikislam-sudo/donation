@@ -29,5 +29,65 @@ body{
     padding: 10px  20px;
     color: white;
     font-weight: 700;
+    justify-content: center;
 }
+.container{
+    text-align: center;
+    margin-top: 50px;
+}
+.flex-container {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    padding: 20px 20px;
     
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+
+  
+  }  
+  .flex-container > div {
+    background-color: #f1f1f1;
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 20px;
+    border-radius: 20px;
+    
+  }
+  .selected-amount{
+    color:  rgb(111, 49, 111);;
+    border: 3px solid  rgb(111, 49, 111);
+    border-radius: 10px;
+}
+.donate-now{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 100px;
+}
+.input-amount{
+    width: 40%;
+    padding: 20px;
+    margin-left: 30%;
+    outline: none;
+    margin-bottom: 20px;
+    background-color: transparent;
+    border: 0 solid;
+    border-bottom: 1px solid  rgb(111, 49, 111);;
+    text-align: center;
+    font-size: 25px;
+}
+
+    .donate-now a{
+        width: 15%;
+        padding: 10px;
+        font-size: 20px;
+        color: white;
+        border-radius: 10px;
+        text-decoration: none;
+        background-color:  rgb(111, 49, 111) ;
+        margin-left: 42.5%;
+        text-align: center;
+    }
+
