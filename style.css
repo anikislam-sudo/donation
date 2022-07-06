@@ -166,6 +166,37 @@ body{
     margin-top: 50px;
     
 }
+.subscribe {
+    width: 700px;
+    height: 150px;
+    border: 1px solid blue;
+    box-sizing: border-box;
+    margin-left: 27%;
+    border: 2px solid rgba(249, 216, 190, 1) ;
+    background-color: rgba(249, 216, 190, 1) ;
+    margin-bottom: 5%;
+}
+.subscribe input{
+    font-size:14px;
+    padding: 14px 14px;
+    color: gray;
+    margin-left: 28%;
+    border-radius: 10px;
+    outline: none;
+    background-color:#D9D9D9;
+    border: 0 solid;
+    margin-top: 7%;
+}
+.subscribe a{
+    color: white;
+    font-size: 12px;
+    text-decoration: none;
+    background-color:rgb(111, 49, 111);
+    border-radius: 15px 15px;
+    padding: 14px;
+    margin-left:-0.5%;
+}
+
 
   
     
