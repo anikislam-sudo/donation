@@ -9,7 +9,7 @@ body{
     width: 100vw;
     height: 100vh;
     position: relative;
-    background-image: url(images/donation7.jpg);
+    background-image:linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)),url(images/donation7.jpg) ;
     background-size: cover;
 }
 .overlay{
@@ -97,9 +97,11 @@ body{
     .half-width{
         width: 100%;
         display: flex;
-        margin-bottom: 200px;
+        margin-bottom: 150px;
+        justify-content: space-between;
         
     }
+    
     
     .food-family{
      margin: 15px 20px;
@@ -111,6 +113,7 @@ body{
  .food-family img{
     margin-top: 10px;
     margin-bottom:10px ;
+    padding: 20px 20px;
  }
  .shelter-family{
     margin: 15px 20px;
@@ -122,6 +125,7 @@ body{
 .shelter-family img{
    margin-top: 10px;
    margin-bottom:10px ;
+   padding: 20px 20px;
 }
 .education-child{
     margin: 15px 20px;
@@ -133,6 +137,7 @@ body{
 .education-child img{
    margin-top: 10px;
    margin-bottom:10px ;
+   padding: 20px 20px;
 }
 .live-depend{
     display: flex;
@@ -152,8 +157,8 @@ body{
     padding-right: 20px;
 }
 .contribute img{
-    width: 80%;
-    margin: 30px;
+    width: 90%;
+    margin: 20px;
 }
 .how-to-contribute{
     background-color:rgb(111, 49, 111) ;
@@ -172,8 +177,8 @@ body{
     border: 1px solid blue;
     box-sizing: border-box;
     margin-left: 27%;
-    border: 2px solid rgba(249, 216, 190, 1) ;
-    background-color: rgba(249, 216, 190, 1) ;
+    border: 2px solid rgb(221, 154, 103) ;
+    background-color: rgb(221, 154, 103) ;
     margin-bottom: 5%;
 }
 .subscribe input{
@@ -195,6 +200,22 @@ body{
     border-radius: 15px 15px;
     padding: 14px;
     margin-left:-0.5%;
+}
+footer{
+   
+        text-align: center;
+        padding: 25px;
+        background-color: rgb(8, 7, 6);
+        color: white;
+        margin-top: -5px;
+      
+}
+footer h2{
+    font-family:Segoe Script;
+    color: rgb(186, 68, 68);
+}
+footer p{
+    font-size: 10px;
 }
 
 
