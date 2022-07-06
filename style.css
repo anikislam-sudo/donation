@@ -134,6 +134,38 @@ body{
    margin-top: 10px;
    margin-bottom:10px ;
 }
+.live-depend{
+    display: flex;
+    margin-bottom: 150px;
+}
+.contribute{
+    padding-left: 2%;
+    width: 50%;
+}
+.contribute h1{
+    font-size: 50px;
+    margin: 20px 20px;
+}
+.contribute p{
+    margin: 20px 20px;
+    font-size: 30px;
+    padding-right: 20px;
+}
+.contribute img{
+    width: 80%;
+    margin: 30px;
+}
+.how-to-contribute{
+    background-color:rgb(111, 49, 111) ;
+    border-radius: 5px;
+    text-decoration: none;
+    padding: 10px  40px;
+    color: white;
+    font-weight: 700;
+    margin-left: 20px;
+    margin-top: 50px;
+    
+}
   
     
 
